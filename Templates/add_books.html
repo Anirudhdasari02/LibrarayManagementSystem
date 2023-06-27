@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Add Books</title>
+    </head>
+    <body>
+    <form action="/add_book" method="POST">
+            <h2>Add Books</h2>
+            <hr/>
+            <label for="Book_id">ID</label>
+            <input type="text" id="Book_id" name="Book_id" required><br><br>
+
+            <label for="BookName">Book Name</label>
+            <input type="text" id="BookName" name="BookName" required><br><br>
+
+            <label for="AuthorName">Author Name</label>
+            <input type="text" id="AuthorName" name="AuthorName" required><br><br>
+
+            <input type="submit" value="Add Book">
+        </form>
+        <a href="/delete_book">Delete Account</a>
+    <a href="/update_book">Update Book</a>
+
+    </body>
+</html>
